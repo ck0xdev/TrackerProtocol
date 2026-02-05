@@ -1,0 +1,22 @@
+- 3 types of Method to create a React application
+     1. Create a new react application globally
+          > npm install -g create-react-app
+          // after installing u can use this command to create a app
+          > create-react-app my-react-app
+          //then navigate to the Project
+          > cd my-react-app
+
+     2. Using npx to Create a React Application
+          > npx create-react-app my-react-app
+          //then navigate to the Project
+          > cd my-react-app
+
+     3. Setting Up React Manually With Vite
+          > npm create vite@latest my-vite-app -- --template react
+          > npm create vite@latest my-vite-app
+          //then navigate to the Project
+          > cd my-vite-app
+          //install all dependencies
+          > npm install
+          // start the development server
+          > npm run dev
